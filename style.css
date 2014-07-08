@@ -1,0 +1,147 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/**My CSS **/
+
+body {
+	
+	font-family: 'Helvetica Neue',Arial,Helvetica,sans-serif;
+	font-size: 1em;
+	
+}
+
+h1 {
+	font-size: 2.969em;
+	
+}
+
+h2 {
+	
+	
+	font-size: 2em;
+}
+p {
+	font-size: 1em;
+	margin-bottom: 1em;
+	
+}
+
+li {
+	
+	font-size: 1em;
+}
+
+a {
+	text-decoration: underline;
+	color:#000;
+	
+}
+
+hr {
+	height: 0.06125em;
+	background: #000;
+	border:  none;
+	
+}
+
+#wrapper {
+	max-width: 100%;
+	position: relative;
+	margin: auto;
+	padding: 2.5%;
+	
+	
+	 ;
+}
+
+
+#head {
+	margin-bottom: 2.5%;
+}
+
+#main {
+	padding: 0 2.5%;
+	clear: both;
+}
+
+
+
+#after {
+	margin-top: 1em;
+}
+
+#footer {
+	padding: 0 2.5%;
+}
+
+#footer p {
+	font-size: 0.784em;
+}
+
+/** Media query for mobile **/
+@media screen and (max-width: 480px) {
+	p, #nav li, li, a {
+		font-size: 1em;
+	}
+	
+	h1 {
+		font-size: 2.969em;
+		text-align:center;
+	}
+	
+	h2 {
+		font-size: 2em;
+		text-align: center;
+	}
+
+	
+	iframe {
+		height: 200px;
+	}
+
+}
